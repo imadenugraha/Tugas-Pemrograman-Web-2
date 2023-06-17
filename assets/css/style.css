@@ -1,0 +1,18 @@
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-img img {
+    height: 50px;
+    width: 300px;
+}
+
+.h1-title h1 {
+    font-size: 20px;
+}
+
+fieldset {
+    border-style: solid;
+    border: 2px solid black;
+    border-radius: 5px;
+}

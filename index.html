@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Form Pendaftaran BPJS</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container-img">
+            <img src="./assets/img/logo-bpjs.png" alt="Logo BPJS">
+        </div>
+        <div class="h1-title">
+            <h1>FORM PENDAFTARAN BADAN USAHA / BADAN HUKUM LAINNYA PEKERJA PENERIMA UPAH (PU)</h1>
+        </div>
+        <div class="container-form">
+            <form action="#">
+                <fieldset>
+                    <legend>STATUS FORMULIR</legend>
+                    <div class="form-status data">
+                        <label>Registrasi Baru</label>
+                        <input type="checkbox" value="Registrasi Baru">
+                        <label>Perubahan Data</label>
+                        <input type="checkbox" value="Perubahan Data"><br>
+                        <br>
+
+                        <table>
+                            <tr>
+                                <td>Diverfikasi oleh: <input type="text"></td>
+                                <td>Tgl. <input type="date"></td>
+                            </tr>
+                            <tr>
+                                <td>Direkam oleh: <input type="text"></td>
+                                <td>Tgl. <input type="date"></td>
+                            </tr>
+                            <tr>
+                                <td>Setuju Kabid PPK</td>
+                                <td>Tgl. <input type="date"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </fieldset>
+            </form>
+            <br>
+        </div>
+        <div class="form-perusahaan">
+            <form action="#">
+                <fieldset>
+                    <legend>INFORMASI BADAN USAHA / BADAN HUKUM</legend>
+                    <p><i>(Diisi oleh petugas BPJS Kesehatan)</i></p>
+                    <label>Kode Badan Usaha / Badan Hukum lainnya: </label>
+                    <input type="number">
+                    <label>No. Virtual Account: </label>
+                    <input type="number">
+                </fieldset>
+            </form>
+            <br>
+        </div>
+        <div class="form-identitas">
+            <form action="#">
+                <fieldset>
+                    <legend>IDENTITAS BADAN USAHA / BADAN HUKUM LAINNYA</legend>
+                    <label>Nama Badan Usaha / Badan Hukum Lainnya: </label>
+                    <input type="text" name="Nama">
+                    <label>Verifikasi?</label>
+                    <input type="checkbox" name="verifikasi-nama"><br>
+
+                    <label>Alamat Badan Usaha / Badan Hukum Lainnya: </label>
+                    <input type="text" name="Alamat" size="100">
+                    <label>Verifikasi?</label>
+                    <input type="checkbox" name="verifikasi-alamat"><br><br>
+
+                    <label>Telepon: </label>
+                    <input type="number" name="no-telepon"><br>
+                    <label>Faksimile: </label>
+                    <input type="number" name="no-faksimile"><br><br>
+
+                    <label>Status Badan Usaha / Badan Hukum: </label><br>
+                    <input type="checkbox">Pusat
+                    <input type="checkbox">Cabang
+                    <input type="checkbox">Anak Perusahaan
+                    <input type="checkbox">Cabang Anak Perusahaan
+                    <input type="checkbox">Lainnya***)
+                    <input type="text"><br>
+                    <label>Verifikasi?</label>
+                    <input type="checkbox"><br><br>
+
+                    <label>Bentuk Badan Usaha: </label>
+                    <input type="text">
+                    <label>Verifikasi?</label>
+                    <input type="checkbox"><br><br>
+
+                    <label>Nomor Izin Usaha/ Izin Lainnya (Akta,MOU, dll): </label>
+                    <input type="number">
+                    <label>Verifikasi?</label>
+                    <input type="checkbox"><br><br>
+
+                    <label>Jenis Usaha Utama: </label>
+                    <input type="text"><br><br>
+
+                    <label>NPWP Badan / Perorangan</label>
+                    <input type="number">
+                    <label>Verifikasi?</label>
+                    <input type="checkbox"><br><br>
+
+                    <label>Nama Pimpinan Badan Usaha/Badan Hukum Lainnya: </label>
+                    <input type="text">
+                    <label>Verifikasi?</label>
+                    <input type="checkbox"><br><br>
+
+                    <label>Status Kepemilikan Badan Usaha/Badan Hukum Lainnya: </label><br>
+                    <input type="checkbox">Swasta Nasional
+                    <input type="checkbox">BUMN
+                    <input type="checkbox">Koperasi
+                    <input type="checkbox">Joint Venture
+                    <input type="checkbox">Swasta Asing
+                    <input type="checkbox">BUMD
+                    <input type="checkbox">Yayasan
+                    <input type="checkbox">YKK**)
+                    <input type="checkbox">Lainnya**)
+                    <input type="text"><br>
+                    <label>Verifikasi?</label>
+                    <input type="checkbox"><br><br>
+
+                    <label>Jenis Usaha: </label>
+                    <input type="text">
+                    <label>Verifikasi?</label>
+                    <input type="checkbox"><br><br>
+
+                    <label>Kode Klasifikasi Baku Lapangan Usaha Indonesia: </label>
+                    <input type="number">
+                    <label>Verifikasi?</label>
+                    <input type="checkbox"><br><br>
+
+                    <label>Nama Bank: </label>
+                    <input type="checkbox">Bank Mandiri
+                    <input type="checkbox">BRI
+                    <input type="checkbox">BNI
+                    <input type="checkbox">Lainnya**)
+                    <input type="text"><br>
+                    <label>Verifikasi?</label>
+                    <input type="checkbox"><br><br>
+                </fieldset>
+            </form>
+            <br>
+        </div>
+        <div class="form-contact-person">
+            <form action="#">
+                <fieldset>
+                    <legend>IDENTITAS CONTACT PERSON  BADAN USAHA / BADAN HUKUM LAINNYA</legend>
+                    <label>Nama Lengkap: </label>
+                    <input type="text">
+                    <label>Verifikasi?</label>
+                    <input type="checkbox"><br><br>
+
+                    <label>Jabatan: </label>
+                    <input type="text">
+                    <label>Verifikasi?</label>
+                    <input type="checkbox"><br><br>
+
+                    <label>Telepon dan Extension: </label>
+                    <input type="number">
+                    Ext: 
+                    <input type="number">
+                    <label>Verifikasi?</label>
+                    <input type="checkbox"><br><br>
+
+                    <label>Faksimile: </label>
+                    <input type="number">
+                    <label>Verifikasi?</label>
+                    <input type="checkbox"><br><br>
+
+                    <label>Handphone: </label>
+                    <input type="number">
+                    <label>Verifikasi?</label>
+                    <input type="checkbox"><br><br>
+
+                    <label>Email: </label>
+                    <input type="email">
+                    <label>Verifikasi?</label>
+                    <input type="checkbox"><br><br>
+                </fieldset>
+            </form>
+            <br>
+        </div>
+        <div class="form-jkn">
+            <form>
+                <fieldset>
+                    <legend>KEIKUTSERTAAN  PROGRAM JAMINAN KESEHATAN NASIONAL (JKN)</legend>
+                    <label>Menjadi Peserta Terhitung Mulai Tanggal (*Diisi oleh petugas BPJS): </label>
+                    <input type="date">
+                    <label>Verifikasi?</label>
+                    <input type="checkbox"><br><br>
+
+                    <label>Jumlah Tenaga Kerja: </label>
+                    <input type="number">
+                    <label>Verifikasi?</label>
+                    <input type="checkbox"><br><br>
+
+                    <label>Jumlah Keluarga: </label>
+                    <input type="number">
+                    <label>Verifikasi?</label>
+                    <input type="checkbox"><br><br>
+
+                    <label>Total Tenaga Kerja dan Keluarga: </label>
+                    <input type="number">
+                    <label>Verifikasi?</label>
+                    <input type="checkbox"><br><br>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
